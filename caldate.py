@@ -1,6 +1,6 @@
 import tkinter as tk
 import datetime
-
+#ใช้บันทึกข้อมูลแคลของอาหารที่กิน
 def count_calories():
     date = date_entry.get()
     calories_per_serving = int(calories_per_serving_entry.get())
